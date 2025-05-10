@@ -31,7 +31,7 @@ jobs:
         with:
           fetch-depth: 0
           ref: "rende-blog"
-          # submodules: true
+          submodules: true
           # If using the 'assets' git submodule from Chirpy Starter, uncomment above
           # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
