@@ -81,6 +81,9 @@ bundle exec jekyll s
 
 记得将你的仓库设置成public进入设置，选择Github Pages从哪个分支来构建，我这里默认选择main分支的根文件
 ![](assets/img/create-blog/image copy 16.png)
+
+然后将代码提交至远程仓库，GitHub就会自动构建了，如果构建过程中报错找不到对应的`assets`文件，记得将[https://github.com/cotes2020/jekyll-theme-chirpy/tree/master/assets](https://github.com/cotes2020/jekyll-theme-chirpy/tree/master/assets)里`assets`的文件复制到你的项目里
+
 ## 提交文档
 1. （可选）你可以对你的默认main分支进行保护，防止有人随意在上面进行提交：
 ![](assets/img/create-blog/image copy 17.png)
@@ -105,9 +108,9 @@ bundle exec jekyll s
 >     - 其他选项，如 “Include administrators”（包含管理员）和 “Allow force pushes”（允许强制推送），根据你的需要进行配置。通常不建议允许强制推送到受保护的分支。
 > - **保存更改：** 点击 “Save changes”（保存更改）。
 
-1. 接下来创建一个分支（有很多种办法），然后本地clone了之后，在新分支上提交文档，最终在Pull request里面提交合并的请求即可
+2. 接下来创建一个分支（有很多种办法），然后本地clone了之后，在新分支上提交文档，最终在Pull request里面提交合并的请求即可
 
-2. 接下来就可以进行文章创作，在根目录下的_posts文件夹下面创建你的md文件，然后提交上去就可以啦，记住文件名要以`YYYY-MM-DD-name.md` 的格式来命名
+3. 接下来就可以进行文章创作，在根目录下的_posts文件夹下面创建你的md文件，然后提交上去就可以啦，记住文件名要以`YYYY-MM-DD-name.md` 的格式来命名
 
-3. push上去之后，github actions会自动部署，然后你就可以看到你的文章啦
+4. push上去之后，github actions会自动部署，然后你就可以看到你的文章啦
 
